@@ -1,0 +1,24 @@
+/* == Bootstrap CSS == */
+@import url("plugins/bootstrap.min.css");
+
+/* == Animate CSS == */
+@import url("plugins/animate.min.css");
+
+/* == Linea Icons CSS == */
+@import url("plugins/linea-basic.css");
+
+/* == Fontawesome Icons CSS == */
+@import url("plugins/fontawesome-all.min.css");
+
+/* == YouTube PopUp CSS == */
+@import url("plugins/YouTubePopUp.css");
+
+/* == Magnific PopUp CSS == */
+@import url("plugins/magnific-popup.css");
+
+/* == Owl Carousel CSS == */
+@import url("plugins/owl.carousel.min.css");
+@import url("plugins/owl.theme.default.min.css");
+
+/* == Helper Classes CSS == */
+@import url("plugins/helper.css");
