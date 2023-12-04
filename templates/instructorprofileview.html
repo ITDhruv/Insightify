@@ -7,7 +7,7 @@
     <title>Insightify</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="D://ppcv//Insightify//static//dist//adminlte.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/adminlte.min.css') }}">
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -37,14 +37,14 @@
                 <ul class="nav navbar-nav">
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="D://ppcv//Insightify//static//img//avatar.png" class="user-image"
+                            <img src="{{ url_for('static', filename='img/avatar.png') }}" class="user-image"
                                  alt="User Image">
                             <span class="hidden-xs">User</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="D://ppcv//Insightify//static//img//avatar.png" class="img-circle"
+                                <img src="{{ url_for('static', filename='img/avatar.png') }}" class="img-circle"
                                      alt="User Image">
 
                                 <p>
@@ -74,7 +74,7 @@
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="D://ppcv//Insightify//static//img//avatar.png" class="img-circle" alt="User Image">
+                    <img src="{{ url_for('static', filename='img/avatar.png') }}" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
                     <p>User</p>
@@ -242,7 +242,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 1.0
         </div>
-        <strong>Copyright &copy; 2023
+        <strong>Copyright &copy; 2019
             <a href="aboutus.html">Insightify.com</a>.</strong> All rights reserved.
     </footer>
 
@@ -250,7 +250,7 @@
 </div>
 <!-- ./wrapper -->
 
-<script src="D://ppcv//Insightify//static//dist//adminlte.min.js"></script>
+<script src="{{ url_for('static', filename='dist/adminlte.min.js') }}"></script>
 
 </body>
 

@@ -10,15 +10,15 @@
     <!-- Title  -->
     <title>Insightify</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="D://ppcv//Insightify//static//assets//img//favicon.ico">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,600,700" rel="stylesheet">
     <!-- Plugins -->
-    <link rel="stylesheet" href="D://ppcv//Insightify//static//assets//css//plugins.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/plugins.css') }}">
     <!-- Main Css -->
-    <link rel="stylesheet" href="D://ppcv//Insightify//static//dist//adminlte.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
 </head>
 <body>
 <!-- Start Page Preloader -->
@@ -67,7 +67,7 @@
 <!-- Start Header -->
 <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="D://ppcv//Insightify//static//assets//img//imagea.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imagea.jpg') }}">
             <div class="v-middle caption mt-30">
                 <div class="o-hidden">
                     <h4></h4>
@@ -82,12 +82,12 @@
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="D://ppcv//Insightify//static//assets//img//imageb.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imageb.jpg') }}">
             <div class="v-middle caption mt-30">
                 <div class="o-hidden">
                     <h4></h4>
                     <h1>Welcome to.......</h1>
-                    <p> Aptitude assessment portal</p>
+                    <p> Aptitiude assessment portal</p>
                     <a href="/login.html" class="butn butn-light mt-30">
                         <span>Login</span>
                     </a>
@@ -97,11 +97,11 @@
                 </div>
             </div>
         </div>
-        <div class="text-center item bg-img" data-overlay-dark="5" data-background="D://ppcv//Insightify//static//assets//img//imagec.jpg">
+        <div class="text-center item bg-img" data-overlay-dark="5" data-background="{{ url_for('static', filename='assets/img/imagec.jpg') }}">
             <div class="v-middle caption mt-30">
                 <div class="o-hidden">
                     <h4>We Are</h4>
-                    <h1>Insightify!</h1>
+                    <h1>Insightify</h1>
                    
                     <a href="/login.html" class="butn butn-light mt-30">
                         <span>Login</span>
@@ -163,21 +163,21 @@
         </div>
     </div>
     <div class="sub-footer text-center">
-        <p>&copy; 2023 <b>Insightify</b>. All Rights Reserved.</p>
+        <p>&copy; 2019 <b>Insightify</b>. All Rights Reserved.</p>
     </div>
 </footer>
 <!-- End Footer -->
 <!-- JQuery JS -->
-<script src="D://ppcv//Insightify//static//assets//js//jquery-3.0.0.min.js"></script>
-<script src="D://ppcv//Insightify//static//assets//js//jquery-migrate-3.0.0.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery-3.0.0.min.js') }}"></script>
+<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
 <!-- Bootstrap JS -->
-<script src="D://ppcv//Insightify//static//assets//js//bootstrap.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
 <!-- Scroll JS -->
-<script src="D://ppcv//Insightify//static//assets//js//scrollIt.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/scrollIt.min.js') }}"></script>
 <!-- Owl Carousel JS -->
-<script src="D://ppcv//Insightify//static//assets//js//owl.carousel.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
 <!-- Scripts JS -->
-<script src="D://ppcv//Insightify//static//assets//js//scripts.js"></script>
+<script src="{{ url_for('static', filename='assets/js/scripts.js') }}"></script>
 </body>
 
 </html>

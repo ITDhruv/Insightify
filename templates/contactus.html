@@ -10,15 +10,15 @@
     <!-- Title  -->
     <title>Insightify</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="D://ppcv//Insightify//static//assets//img//favicon.ico">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,600,700" rel="stylesheet">
     <!-- Plugins -->
-    <link rel="stylesheet" href="D://ppcv//Insightify//static//assets//css//plugins.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/plugins.css') }}">
     <!-- Main Css -->
-    <link rel="stylesheet" href="D://ppcv//Insightify//static//assets//css//style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
 </head>
 <body>
 <!-- Start Page Preloader -->
@@ -64,7 +64,7 @@
     </div>
 </nav>
 <!-- End Navigation -->
-<header class="page-header valign bg-img" data-overlay-dark="7" data-background="D://ppcv//Insightify//static//assets//img//bg6.jpg" data-stellar-background-ratio="0.5">
+<header class="page-header valign bg-img" data-overlay-dark="7" data-background="{{ url_for('static', filename='assets/img/bg6.jpg') }}" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row">
             <div class="full-width text-center caption mt-30">
@@ -87,14 +87,14 @@
             <div class="col-md-4 item text-center">
                 <span class="icon icon-basic-geolocalize-05"></span>
                 <h6>Address</h6>
-                <p>University of Mumbai</p>
-                <p>Mumbai</p>
-                <p>Maharashtra, India</p>
+                <p>Dwarakadas J. Sanghvi</p>
+                <p>Juhu Lane</p>
+                <p>Vile Parle(W), Mumbai</p>
             </div>
             <div class="col-md-4 item text-center">
                 <span class="icon icon-basic-headset"></span>
                 <h6>Call Us</h6>
-                <p>+91 773 307 890 7</p>
+                <p>+91 7738775408</p>
             </div>
         </div>
     </div>
@@ -208,21 +208,21 @@
         </div>
     </div>
     <div class="sub-footer text-center">
-        <p>&copy; 2023 <b>Insightify</b>. All Rights Reserved.</p>
+        <p>&copy; 2019 <b>Insightify</b>. All Rights Reserved.</p>
     </div>
 </footer>
 <!-- End Footer -->
 <!-- JQuery JS -->
-<script src="D://ppcv//Insightify//static//assets//js//jquery-3.0.0.min.js"></script>
-<script src="D://ppcv//Insightify//static//assets//js//jquery-migrate-3.0.0.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery-3.0.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery-migrate-3.0.0.min.js') }}"></script>
 <!-- Bootstrap JS -->
-<script src="D://ppcv//Insightify//static//assets//js//bootstrap.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
 <!-- Scroll JS -->
-<script src="D://ppcv//Insightify//static//assets//js//scrollIt.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/scrollIt.min.js') }}"></script>
 <!-- Owl Carousel JS -->
-<script src="D://ppcv//Insightify//static//assets//js//owl.carousel.min.js"></script>
+<script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
 <!-- Scripts JS -->
-<script src="D://ppcv//Insightify//static//assets//js//scripts.js"></script>
+<script src="{{ url_for('static', filename='assets/js/scripts.js') }}"></script>
 </body>
 
 </html>
