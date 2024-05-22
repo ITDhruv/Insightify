@@ -46,7 +46,7 @@ pyahocorasick==1.4.4
 pycparser==2.21
 pycryptodome==3.14.1
 pydantic==1.8.2
-PyMySQL==1.0.2
+PyMySQL==1.1.1
 pyparsing==3.0.9
 pyresparser==1.0.6
 pyrsistent==0.18.1
